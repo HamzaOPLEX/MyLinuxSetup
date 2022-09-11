@@ -13,3 +13,5 @@ sudo lvresize -l +100%FREE /dev/mapper/ubuntu--vg-ubuntu--lv
 # Expand the filesystem itself
 sudo resize2fs /dev/mapper/ubuntu--vg-ubuntu--lv
 
+# list devices
+sudo lsblk
